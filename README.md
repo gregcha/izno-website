@@ -4,7 +4,7 @@ A modern landing page for IZNO, an AI-powered solution for profile research in c
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME](https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME)
+Visit the live site: [https://gregcha.github.io/izno-website](https://gregcha.github.io/izno-website)
 
 ## 📦 Deployment to GitHub Pages
 
@@ -17,13 +17,13 @@ Visit the live site: [https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME](http
 
 1. **Create a new GitHub repository:**
    - Go to [GitHub](https://github.com) and create a new repository
-   - Name it something like `izno-landing-page`
+   - Name it `izno-website`
    - Make it public
    - Don't initialize with README (we already have files)
 
 2. **Update configuration:**
-   - In `package.json`, replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub username and repository name
-   - In `vite.config.ts`, replace `YOUR_REPOSITORY_NAME` with your actual repository name
+   - Configuration is already set for `gregcha/izno-website`
+   - No manual updates needed
 
 3. **Push your code to GitHub:**
    ```bash
@@ -31,7 +31,7 @@ Visit the live site: [https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME](http
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+   git remote add origin https://github.com/gregcha/izno-website.git
    git push -u origin main
    ```
 
@@ -44,7 +44,7 @@ Visit the live site: [https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME](http
 5. **Automatic Deployment:**
    - The GitHub Action will automatically run when you push to the main branch
    - Check the "Actions" tab to see the deployment progress
-   - Once complete, your site will be available at `https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME`
+   - Once complete, your site will be available at `https://gregcha.github.io/izno-website`
 
 ### Local Development
 
@@ -67,7 +67,7 @@ npm run preview
 - **React 18** - UI framework
 - **TypeScript** - Type safety
 - **Vite** - Build tool
-- **Tailwind CSS v4** - Styling
+- **Tailwind CSS v3** - Styling
 - **Lucide React** - Icons
 - **GitHub Pages** - Hosting
 
