@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.NODE_ENV === 'production' ? '/izno-landing-page/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/izno-website/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

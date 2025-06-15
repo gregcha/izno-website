@@ -43,7 +43,7 @@ export default function App() {
           <p className="font-['Inter:Medium',_sans-serif] text-[16px] lg:text-[20px] leading-[40px] text-[#888888] mb-6 max-w-2xl mx-auto">
             One of the leading Nordic transactional law firms has rolled out Vesence firm-wide.
           </p>
-          <button className="font-['Inter:Medium',_sans-serif] text-[20px] leading-[40px] text-black hover:underline mb-8">
+          <button className="font-['Inter:Medium',_sans-serif] text-[20px] leading-[40px] text-black hover:underline mb-8 px-6 py-3 hover:bg-gray-100 rounded-lg transition-colors">
             Read more
           </button>
           <div className="aspect-[16/10] bg-gradient-to-br from-amber-50 to-orange-100 rounded-[20px] flex items-center justify-center">
@@ -68,7 +68,7 @@ export default function App() {
           <p className="font-['Inter:Regular',_sans-serif] text-[14px] leading-[21px] text-[#444444] mb-4">
             We use cookies to personalize content, run ads, and analyze traffic.
           </p>
-          <button className="bg-[#eeeeee] hover:bg-gray-300 px-4 py-2 rounded-lg font-['Inter:Regular',_sans-serif] text-[13.5625px] text-[#444444] transition-colors">
+          <button className="bg-[#eeeeee] hover:bg-gray-300 px-6 py-3 rounded-lg font-['Inter:Regular',_sans-serif] text-[13.5625px] text-[#444444] transition-colors">
             Okay
           </button>
         </div>

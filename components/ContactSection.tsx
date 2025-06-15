@@ -50,7 +50,7 @@ export function ContactSection() {
                 />
                 <Button 
                   type="submit"
-                  className="bg-white hover:bg-gray-100 text-[#0e0e0e] px-6 py-2 rounded-[10px] font-semibold"
+                  className="bg-white hover:bg-gray-100 text-[#0e0e0e] px-8 py-4 rounded-[10px] font-semibold"
                 >
                   Submit
                 </Button>

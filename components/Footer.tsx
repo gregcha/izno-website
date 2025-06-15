@@ -31,7 +31,7 @@ export function Footer() {
                 </button>
               </li>
               <li>
-                <a href="#contact" className="font-['Inter:Regular',_sans-serif] text-[14px] leading-[20px] text-[#999999] hover:text-white">
+                <a href="#contact" className="font-['Inter:Regular',_sans-serif] text-[14px] leading-[20px] text-[#999999] hover:text-white hover:bg-[#333333] px-3 py-2 rounded-md transition-colors inline-block">
                   Join Waitlist
                 </a>
               </li>
@@ -63,7 +63,7 @@ export function Footer() {
           <p className="font-['Inter:Regular',_sans-serif] text-[14px] leading-[20px] text-[#999999]">
             © 2025 Verse Law AB
           </p>
-          <button className="font-['Inter:Regular',_sans-serif] text-[14px] leading-[14px] text-[#999999] hover:text-white mt-4 md:mt-0">
+          <button className="font-['Inter:Regular',_sans-serif] text-[14px] leading-[14px] text-[#999999] hover:text-white hover:bg-[#333333] px-3 py-2 rounded-md transition-colors mt-4 md:mt-0">
             Cookie Settings
           </button>
         </div>

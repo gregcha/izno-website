@@ -29,7 +29,7 @@ export function HeroSection() {
           </div>
           <Button 
             onClick={handleDemoRequest}
-            className="bg-[#1c1e20] hover:bg-[#333333] text-white px-[30px] py-4 rounded-[10px] font-semibold text-[18px] transition-colors"
+            className="bg-[#1c1e20] hover:bg-[#333333] text-white px-[40px] py-6 rounded-[10px] font-semibold text-[18px] transition-colors"
           >
             Demander une démo
           </Button>
